@@ -31,12 +31,6 @@ assets
 │   │   │   ├── storage #本地存储管理器
 │   │   │   ├── timer   #调度管理器
 │   │   ├── extensions  #扩展目录(按需添加或移除扩展即可)
-│   │   │   ├── expr-eval #表达式插件
-│   │   │   ├── pako      #gzip压缩插件
-│   │   │   ├── protobuf  #protobuf插件
-│   │   │   ├── shader    #shader扩展(暂时移除)
-│   │   │   ├── qrcode    #二维码插件
-│   │   │   │   ├──components #对应二维码绘制组件目录(其它扩展同理)
 │   │   │   ├── ... 
 │   │   ├── utils #工具类目录
 │   │   │   ├── polyfill #用作补丁,将某些平台不支持但又需要用到的功能以js插件形式引入
@@ -50,13 +44,9 @@ assets
 - ViewBase  `mvc基础组件`
 - FitUI     `ui适配组件`
 - ScreenCapture `截图组件`
-- ~~ShaderSprite~~  `扩展组件`
-- QRCode    `扩展组件`
 
 ### 框架附带工具
 - excel 配置打表工具（配套框架中的数据管理器 DataManager）
-- protobuf-tools 用于生成*.proto对应的提示文件等
-- 热更新版本构建工具
 
 ### 附言
 不要问有没有详细文档，没有，也不需要。打开AppStart场景即可运行，入口脚本同场景名，使用和示例相对简单。

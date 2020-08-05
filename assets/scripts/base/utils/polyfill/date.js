@@ -18,3 +18,4 @@ Date.prototype['format'] = function (fmt) {
     }
     return fmt;
 }
+console.log(`polyfill -> Date.format`);
